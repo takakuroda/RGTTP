@@ -19,7 +19,7 @@ print('Bloody {1} is {0} years old.'.format(name, age))
 
 print('Bloody {0} is {0} years old.'.format(name, age))
 
-print('Bloody {1} is {1} years old.'.format(name, age))
+print('Bloody {1} is {0} years old.'.format(name, age))
 
 print()
 

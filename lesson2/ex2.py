@@ -24,10 +24,14 @@ print()
 
 # INSERT YOUR CODE HERE
 
-def panic(string_1: str, string_2: str) -> str:
-    print(string_1 + " " + string_2)
 
-panic("Don't", "Panic!")
+def panic(string_1: str, string_2: str) -> str:
+    # taka=string_1 + " " + string_2
+    return string_1 + " " + string_2
+
+
+taka = panic("Don't", "Panic!")
+print(taka)
 
 print()
 
@@ -35,7 +39,7 @@ panic("Panic!", "Don't")
 
 print()
 
-panic(string_2 = "Panic!", string_1 = "Don't")
+panic(string_2="Panic!", string_1="Don't")
 
 print()
 
@@ -46,12 +50,18 @@ print()
 
 # INSERT YOUR CODE HERE
 
-def charactor(name: str, what: str) -> str:
-    print(name + " is really " + what + "!")
+
+def charactor(name: str, what: str) -> None:
+    print(f"{name} is {what}")
+
+    # print("{name} is {what}".format(name=name, what=what))
+
+    # print(f"{name} is {what}", name=name, what=what)
+
 
 charactor("Taka", "bastard")
 
-print()
+
 
 charactor("bastard", "Taka")
 
